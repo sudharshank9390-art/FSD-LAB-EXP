@@ -75,25 +75,3 @@ The app stores the profile data in React state and persists it to localStorage. 
 
 ## 14. Conclusion
 This project demonstrates how to build a clean React dashboard using state-driven UI updates.
-
-## 15. Viva questions and answers
-1. What is React?  
-   React is a JavaScript library for building user interfaces.
-2. What is JSX?  
-   JSX is HTML-like syntax used in React files.
-3. What is a functional component?  
-   It is a JavaScript function that returns JSX.
-4. What are props?  
-   Props pass data from one component to another.
-5. What is state?  
-   State stores data inside a component and changes during runtime.
-6. What is useState?  
-   It lets a component maintain local state.
-7. What is useEffect?  
-   It runs after render and can perform sync or side effects.
-8. What is the difference between props and state?  
-   Props are external values, while state is internal and mutable.
-9. Why is reusable component design useful?  
-   It reduces duplication and improves maintainability.
-10. How does React update the interface?  
-   React re-renders the component when state or props change.

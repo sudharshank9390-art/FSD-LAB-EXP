@@ -73,25 +73,3 @@ The page uses a callback function to check availability, a Promise for booking p
 
 ## 14. Conclusion
 This project clearly demonstrates asynchronous JavaScript behavior in a simple, practical example.
-
-## 15. Viva questions and answers
-1. What is asynchronous programming?  
-   It allows tasks to run without blocking the main flow.
-2. What is a callback?  
-   A callback is a function passed to another function for later execution.
-3. What is a Promise?  
-   A Promise represents a future result of an async operation.
-4. What are the states of a Promise?  
-   Pending, fulfilled, and rejected.
-5. What is async/await?  
-   It makes asynchronous code easier to read and write.
-6. What is the difference between callbacks and Promises?  
-   Promises are easier to manage and avoid nested callback complexity.
-7. What is try/catch used for?  
-   It captures and handles errors in async code.
-8. What is Promise rejection?  
-   It means the Promise failed and an error is returned.
-9. Why use setTimeout in this project?  
-   It simulates real-world delay and booking processing.
-10. How are booking errors handled?  
-   Errors are displayed in the status box and prevent booking confirmation.

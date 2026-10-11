@@ -78,25 +78,3 @@ The script reads subject marks from the form, validates each mark, calculates th
 
 ## 14. Conclusion
 This project helps students understand JavaScript logic, data handling, and input validation.
-
-## 15. Viva questions and answers
-1. What is JavaScript?  
-   JavaScript is a client-side scripting language used to make web pages interactive.
-2. What is ES6?  
-   ES6 is the sixth version of JavaScript and includes modern syntax improvements.
-3. What is an arrow function?  
-   An arrow function is a shorter way to write function expressions.
-4. What is a template literal?  
-   A template literal uses backticks and supports string interpolation.
-5. What is destructuring?  
-   Destructuring extracts values from arrays and objects into variables.
-6. What is the spread operator?  
-   The spread operator expands arrays or objects into individual values.
-7. Why is input validation important?  
-   It prevents invalid data and incorrect calculations.
-8. How is the average calculated?  
-   Total marks divided by the number of subjects.
-9. How is the grade determined?  
-   Using the average score against predefined grade ranges.
-10. What is the difference between let and const?  
-   `let` can be reassigned, while `const` cannot be reassigned.

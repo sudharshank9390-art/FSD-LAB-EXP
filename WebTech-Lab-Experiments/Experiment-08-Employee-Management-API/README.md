@@ -91,25 +91,3 @@ The API keeps employee records in memory and exposes CRUD routes. Middleware log
 
 ## 14. Conclusion
 This API demonstrates a centralized employee record service using Express and middleware.
-
-## 15. Viva questions and answers
-1. What is an API endpoint?  
-   An endpoint is a URL route used for API requests.
-2. What is Express routing?  
-   It maps HTTP requests to functions that process them.
-3. What is middleware?  
-   Middleware runs between the request and final handler.
-4. What does express.json() do?  
-   It parses incoming JSON request bodies.
-5. What is request validation?  
-   It checks if required fields match the expected format.
-6. What is the difference between PUT and PATCH?  
-   PUT replaces a resource, while PATCH partially updates it.
-7. Why should errors be handled?  
-   So the API returns clear and consistent responses.
-8. How does an API identify an employee?  
-   By using the employee ID in the request path.
-9. What is a 404 response?  
-   It means the requested resource was not found.
-10. Why is logging useful in an API?  
-   It helps monitor requests and debug issues efficiently.

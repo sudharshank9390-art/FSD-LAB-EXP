@@ -77,25 +77,3 @@ The application stores expenses in an array and uses a Map to calculate category
 
 ## 14. Conclusion
 This project is a practical demonstration of JavaScript data structures and client-side storage.
-
-## 15. Viva questions and answers
-1. What is an object in JavaScript?  
-   An object stores related data as key-value pairs.
-2. What is an array?  
-   An array stores ordered values.
-3. What is a Map?  
-   A Map stores key-value pairs and preserves insertion order.
-4. What is a Set?  
-   A Set stores unique values only.
-5. How does Map differ from a plain object?  
-   Map allows any type as keys and preserves order more predictably.
-6. How does Set maintain unique values?  
-   It rejects duplicate entries automatically.
-7. What is npm?  
-   npm is the Node.js package manager.
-8. What is package.json?  
-   It stores metadata and dependencies for a project.
-9. How is total expenditure calculated?  
-   By summing the amount values of all saved expenses.
-10. Why is input validation necessary?  
-   It avoids invalid or misleading financial records.

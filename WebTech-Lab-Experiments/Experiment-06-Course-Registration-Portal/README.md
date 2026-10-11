@@ -83,25 +83,3 @@ The app uses client-side routing to navigate between pages without a full reload
 
 ## 14. Conclusion
 This project shows how React Router and validation can build a practical college registration portal.
-
-## 15. Viva questions and answers
-1. What is React Router?  
-   It enables page navigation in React applications.
-2. What is client-side routing?  
-   It changes the view in the browser without reloading the full page.
-3. What is a controlled component?  
-   A form element whose value is controlled by React state.
-4. What is form validation?  
-   It checks whether user input follows the expected rules.
-5. What is a REST API?  
-   It is an interface for communication between systems using HTTP methods.
-6. What is a mock API?  
-   It mimics an API when a real server is unavailable.
-7. Why is useState used?  
-   It stores form values and validation states.
-8. What is the difference between GET and POST?  
-   GET retrieves data while POST sends data to the server.
-9. How is invalid registration prevented?  
-   Validation logic blocks form submission until input is valid.
-10. How does navigation work without a full-page reload?  
-   React Router updates the route and component tree in the browser.

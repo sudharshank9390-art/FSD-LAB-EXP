@@ -17,7 +17,7 @@ This repository contains 8 beginner-friendly Web Technology laboratory experimen
 
 ## How to use
 
-Open the relevant experiment folder and follow the README instructions for that experiment. Each project is designed to be easy to explain during a lab examination and practical viva.
+Open the relevant experiment folder and follow the README instructions for that experiment.
 
 ## Tech stack
 

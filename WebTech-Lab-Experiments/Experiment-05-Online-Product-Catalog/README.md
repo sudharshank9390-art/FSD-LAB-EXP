@@ -75,25 +75,3 @@ The products array is filtered using both search text and category selection. Wh
 
 ## 14. Conclusion
 This project demonstrates interactive filtering and reusable card-based UI design in React.
-
-## 15. Viva questions and answers
-1. What is conditional rendering?  
-   It renders different UI elements based on a condition.
-2. What is event handling?  
-   It responds to actions such as clicks or typing.
-3. How does a search filter work?  
-   It checks whether the item text matches user input.
-4. What does the filter() method do?  
-   It returns a new array with matching values.
-5. What does the map() method do?  
-   It transforms each array item into a new value or JSX element.
-6. What is a controlled input?  
-   An input whose value is connected to state.
-7. Why use keys when rendering lists?  
-   Keys help React identify changed and reordered items.
-8. What is component reuse?  
-   It means reusing the same component for multiple items.
-9. How are categories filtered?  
-   By checking the selected category against each product.
-10. What happens when no products match?  
-   A no-results message is shown.
