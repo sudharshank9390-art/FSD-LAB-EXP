@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Personal Expense Tracker</h1>
+
+      <form id="expenseForm">
+        <div class="fields-grid">
+          <div class="field">
+            <label for="title">Expense Title</label>
+            <input id="title" type="text" placeholder="e.g. Grocery" />
+          </div>
+          <div class="field">
+            <label for="amount">Amount</label>
+            <input id="amount" type="number" min="0" step="0.01" placeholder="0.00" />
+          </div>
+          <div class="field">
+            <label for="category">Category</label>
+            <select id="category">
+              <option value="Food">Food</option>
+              <option value="Travel">Travel</option>
+              <option value="Utilities">Utilities</option>
+              <option value="Entertainment">Entertainment</option>
+              <option value="Health">Health</option>
+              <option value="Education">Education</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="date">Date</label>
+            <input id="date" type="date" />
+          </div>
+        </div>
+        <button type="submit">Add Expense</button>
+      </form>
+
+      <div class="toolbar">
+        <select id="categoryFilter">
+          <option value="All">All Categories</option>
+        </select>
+        <div id="totalAmount" class="total">Total: ₹0.00</div>
+      </div>
+
+      <div class="summary-grid">
+        <div class="summary-box">
+          <h3>Categories</h3>
+          <ul id="categorySummary"></ul>
+        </div>
+        <div class="summary-box">
+          <h3>Expense List</h3>
+          <ul id="expenseList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

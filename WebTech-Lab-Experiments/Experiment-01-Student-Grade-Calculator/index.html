@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Grade Calculator</h1>
+      <form id="gradeForm">
+        <div class="field-group">
+          <label for="studentName">Student Name</label>
+          <input id="studentName" name="studentName" type="text" placeholder="Enter student name" />
+        </div>
+
+        <div class="subjects-grid" id="subjectsGrid">
+          <div class="subject-row">
+            <label>Mathematics</label>
+            <input type="number" min="0" max="100" step="0.1" data-subject="Mathematics" />
+          </div>
+          <div class="subject-row">
+            <label>Physics</label>
+            <input type="number" min="0" max="100" step="0.1" data-subject="Physics" />
+          </div>
+          <div class="subject-row">
+            <label>Chemistry</label>
+            <input type="number" min="0" max="100" step="0.1" data-subject="Chemistry" />
+          </div>
+          <div class="subject-row">
+            <label>English</label>
+            <input type="number" min="0" max="100" step="0.1" data-subject="English" />
+          </div>
+          <div class="subject-row">
+            <label>Computer Science</label>
+            <input type="number" min="0" max="100" step="0.1" data-subject="Computer Science" />
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button type="submit">Calculate Grade</button>
+          <button type="button" id="clearButton" class="secondary">Clear</button>
+        </div>
+      </form>
+
+      <div id="result" class="result hidden">
+        <h2>Result</h2>
+        <div id="studentDetails"></div>
+        <div id="summaryTable"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

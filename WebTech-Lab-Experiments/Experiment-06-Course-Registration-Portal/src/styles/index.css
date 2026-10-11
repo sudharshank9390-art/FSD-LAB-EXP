@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+}
+
+.app-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 12px;
+  background: #0f172a;
+  padding: 14px 18px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.nav-link {
+  color: #e2e8f0;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.nav-link.active {
+  background: #2563eb;
+  color: white;
+}
+
+.page-card {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+  padding: 25px;
+}
+
+.course-list {
+  line-height: 2;
+}
+
+.register-form {
+  display: grid;
+  gap: 16px;
+}
+
+.form-group {
+  display: grid;
+  gap: 8px;
+}
+
+.form-group input, .form-group select, .register-form button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+}
+
+.register-form button {
+  background: #16a34a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+small {
+  color: #dc2626;
+}
+
+.primary-link, .secondary-link {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 15px;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
+.primary-link {
+  background: #2563eb;
+  color: white;
+}
+
+.secondary-link {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.success-card {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}

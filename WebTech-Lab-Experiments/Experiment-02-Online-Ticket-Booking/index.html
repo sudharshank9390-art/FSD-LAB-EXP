@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Ticket Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Online Ticket Booking Simulator</h1>
+      <div class="event-list" id="eventList"></div>
+
+      <form id="bookingForm">
+        <div class="field-group">
+          <label for="eventSelect">Select Event</label>
+          <select id="eventSelect"></select>
+        </div>
+
+        <div class="field-group">
+          <label for="ticketQty">Number of Tickets</label>
+          <input id="ticketQty" type="number" min="1" max="10" value="1" />
+        </div>
+
+        <button type="submit">Book Tickets</button>
+      </form>
+
+      <div id="status" class="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
